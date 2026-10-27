@@ -22,7 +22,7 @@ import kotlinx.coroutines.launch
 
 
 @Composable
-fun LoginScreen(
+fun PantallaLogin(
     onLoginSuccess: () -> Unit = {}
 ) {
     val context = LocalContext.current
